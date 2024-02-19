@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff6cb; /* Classic background color (light pink) */
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.message {
+    background-color: #ffffff; /* White background for the message */
+    border: 2px solid #e0e0e0; /* Light gray border */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333; /* Text color */
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.return{
+    background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 1px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.return:hover{
+    opacity: 1;
+}
