@@ -196,18 +196,18 @@ padding-bottom: 15px;
 .cv{
     margin-left: 10vw;
     margin-top: 30px;
-    padding-bottom: 15px;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
     text-decoration: none;
     color: #FFF;
     font-family: 'Exo 2', sans-serif;
-    font-size: 15px;
     width: 200px;
     height: 40.874px;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #F86F03;
 }
 
@@ -340,7 +340,7 @@ margin-right: 10vw;
 .box {
   width: 30%;
   padding: 10px;
-  margin: 1.3%;
+  margin: 20px;
   border: 2px solid #fff;
   /* display: inline-block; */
   box-sizing: border-box;
@@ -429,8 +429,8 @@ padding: 15px;
 } */
 
 .responsive{
-  padding: 2px;
-  background-color: #f1f1f1;
+  padding: 4px;
+  background-color: #3a3a3a;
   border-radius: 5px;
 }
 .responsive:hover{
@@ -471,7 +471,7 @@ padding: 15px;
     padding-bottom: 10vw;
   }
 }
-@media only screen and (max-width:700px) and (min-width:351px){
+@media only screen and (max-width:700px) and (min-width:500px){
   .imgcont{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -483,21 +483,21 @@ padding: 15px;
     padding-bottom: 30vw;
   }
 }
-@media only screen and (max-width:350px){
+@media only screen and (max-width:499px){
   .imgcont{
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 2%;
-    row-gap: 4%;
+    row-gap: 30px;
     height: fit-content;
   
   }
   .fourdiv{
-    padding-bottom: 180vw;
+    padding-bottom: 8rem;
   }
 }
 .descriptions{
-  color: #000000;
+  color: #fefefe;
   font-family: 'Exo 2', sans-serif;
 }
 
